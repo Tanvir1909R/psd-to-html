@@ -1,0 +1,829 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Russo+One&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+*{padding: 0px;margin: 0px;}
+section{
+margin: 0px;
+padding: 80px 0px;
+
+}
+#header{
+margin: 0px;
+padding: 0px 0px;
+}
+.background{
+background:url(../img/background.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.contener{
+width: 1200px;
+margin:auto;
+}
+.logo span:first-child{
+font-size: 34px;
+font-family: 'Work Sans', sans-serif;
+text-transform: uppercase;
+font-weight: 900;
+color: #828080;
+}
+.logo span:last-child {
+text-transform: uppercase;
+font-family: arial;
+font-size: 31px;
+font-weight: 100;
+letter-spacing: -3px;
+color: white;
+}
+.logo {
+width: 200px;
+float: left;
+padding: 20px;
+}
+.menubar {
+width: 850px;
+overflow: hidden;
+}
+.menubar i {
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    visibility: hidden;
+}
+.menubar ul li a {
+text-decoration: none;
+color: white;
+}
+.menubar ul li {
+list-style: none;
+display: block;
+float: left;
+padding: 20px;
+font-weight: 400;
+font-family: oswald;
+color: white;
+}
+.menubar ul {
+float: right;
+}
+.menulogowrapper {
+border-bottom: 1px solid #ddd;
+}
+.title h1 {
+font-family: 'Work Sans';
+text-transform: uppercase;
+width: 830px;
+margin: auto;
+font-size: 60px;
+margin-bottom: 20px;
+color: white;
+}
+.title p {
+text-align: center;
+font-size: 20px;
+font-family: 'Work Sans';
+width: 885px;
+margin: auto;
+margin-bottom: 75px;
+color: white;
+}
+.logomenu {
+margin-bottom: 115px;
+}
+.title button {
+border: none;
+padding: 15px 40px;
+background: #E74445;
+color: white;
+margin-left: 490px;
+font-family: 'Work Sans';
+font-weight: 500;
+margin-bottom: 100px;
+}
+.singleservice {
+width: 330px;
+float: left;
+margin-right: 56px;
+margin-bottom: 70px;
+}
+section#service {
+padding: 0px;
+}
+.servicewrapper {
+overflow: hidden;
+margin-top: 150px;
+margin-bottom: 80px;
+}
+.icon {
+width: 90px;
+text-align: center;
+margin: auto;
+font-size: 60px;
+color: #E74445;
+}
+.icontitle h3 {
+text-align: center;
+font-size: 15px;
+font-family: 'Oswald';
+color: #555;
+}
+.icontitle p {
+font-family: 'Work Sans';
+text-align: center;
+width: 328px;
+margin: auto;
+color: #696767;
+font-size: 15px;
+}
+.singleservice:last-child {
+margin-right: 0px;
+}
+.singlepic {
+width: 390px;
+float: left;
+margin-right: 1px;
+position: relative;
+}
+.singlepic img {
+max-width: 100%;
+height: 260px;
+}
+.picwrapper {
+overflow: hidden;
+}
+.parsonwrapper {
+overflow: hidden;
+}
+.singleperson {
+width: 270px;
+float: left;
+margin-right: 25px;
+}
+.persondec h2 {
+font-family: 'Work Sans';
+font-size: 25px;
+margin-bottom: 10px;
+}
+.persondec span {
+color: #E74445;
+display: block;
+margin-bottom: 30px;
+font-family: 'Work Sans';
+}
+.persondec p {color: #766565;font-size: 17px;margin-bottom: 30px;}
+.picT {
+position: absolute;
+left: 120px;
+bottom: 100px;
+color: white;
+}
+.picT h3 {
+font-family: 'Work Sans';
+font-size: 16px;
+}
+.picT span {
+font-family: 'Work Sans';
+font-size: 12px;
+}
+.personsocial i {
+display: grid;
+place-items: center;
+float: left;
+border: 1px solid #ede2e2;
+padding: 10px 15px;
+margin-right: 5px;
+color: #ddd;
+font-size: 17px;
+}
+.singleperson:last-child {
+margin-right: 0px;
+}
+.sokAthakaimg{
+background:url(../img/photo6129671411413920881.jpg);
+background-size: cover;
+background-position: center bottom;
+}
+.sokAthakaimg {
+width: 50%;
+float: left;
+height: 441px;
+}
+.sokAthakaright {
+float: right;
+width: 50%;
+background: #523549;
+}
+.personsocial {
+    overflow: hidden;
+}
+.sokwrapper {
+overflow: hidden;
+}
+.soktextwrapper {
+padding: 110px 80px;
+height: 221px;
+}
+.downloadwrapper {
+    margin-top: -445px;
+}
+.soktextwrapper h1 {
+color: white;
+font-size: 40px;
+font-family: Charm;
+font-weight: normal;
+margin-bottom: 20px;
+}
+.soktextwrapper p{
+color: white;
+font-size: 12px;
+}
+.sokAthakaimg img {
+max-width: 100%;
+height: 441px;
+background-repeat: no-repeat;
+background-position: center center;
+}
+.downlodetitle h1 {
+font-family: 'Work Sans';
+margin-top: 390px;
+margin-left: 155px;
+font-size: 35px;
+}
+.downlodetitle p {
+width: 381px;
+margin: auto;
+margin-top: 12px;
+font-family: 'Work Sans';
+margin-bottom: 35px;
+}
+.downlodetitle button {
+border: none;
+padding: 15px 30px;
+background: #E74445;
+color: white;
+display: block;
+margin-left: 460px;
+}
+.singlesocial {
+width: 180px;
+float: left;
+margin-right: 300px;
+}
+.decsocialwrapper {
+overflow: hidden;
+}
+section#decsocial {
+padding-bottom: 50px;
+background: #3A3E63;
+color: white;
+}
+.singlesocial:last-child {
+margin-right: 0px;
+}
+.singlesocial h3 {
+font-family: 'Work Sans';
+margin-bottom: 15px;
+}
+
+.singlesocial:last-child p {
+width: 203px;
+text-align: left;
+}
+.decisocial i {
+float: left;
+place-items: center;
+display: grid;
+border: 3px solid white;
+margin-right: 14px;
+padding: 13px;
+}
+footer#footer {
+background: #313455;
+color: white;
+}
+.footerdc p {
+text-align: center;
+}
+.footerdc {
+padding: 20px 0px;
+} 
+html{
+scroll-behavior: smooth;
+}
+/*---------------------computer-------------*/
+@media (min-width:1001px) and (max-width:1200px){
+    #header{
+        width: 120%;
+    }
+    #service{
+        width: 120%;
+    }
+    #picture{
+        width: 120%;
+        
+    }
+    #person{
+        width: 120%;
+    }
+    #sokAthaka{
+        width: 120%;
+    }
+    #downlode{
+        width: 120%;
+    }
+    #decsocial{
+        width: 120%;
+    }
+    #footer{
+        width: 120%;
+    }
+}
+/*---------------------laptop and computer-------------*/
+@media (min-width:801px) and (max-width:1000px){
+    #header{
+        width: 150%;
+    }
+    #service{
+        width: 150%;
+    }
+    #picture{
+        width: 150%;
+    }
+    #person{
+        width: 150%;
+    }
+    #sokAthaka{
+        width: 150%;
+    }
+    #downlode{
+        width: 150%;
+    }
+    #decsocial{
+        width: 150%;
+    }
+    #footer{
+        width: 150%;
+    }
+    .singlesocial{
+        margin-right: 0px;
+        margin-left: 165px;
+    }
+    .downloadwrapper{
+        margin-left: 65px
+    }
+    .singleperson{
+        margin-right: 0px;
+        margin-left: 25px;
+    }
+    .personsocial i{
+        font-size: 30px;
+        padding-left: 20px
+    }
+    .singleservice{
+        margin-right: 0px;
+        margin-left: 55px
+    }
+}
+/*---------------------laptop-------------*/
+@media (min-width:651px) and (max-width:800px){
+    #header{
+        width: 184%;
+    }
+    #service{
+        width: 184%;
+    }
+    #picture{
+        width: 184%;
+    }
+    #person{
+        width: 184%;
+    }
+    #sokAthaka{
+        width: 184%;
+    }
+    #downlode{
+        width: 184%;
+    }
+    #decsocial{
+        width: 184%;
+    }
+    #footer{
+        width: 184%;
+    }
+    .singlepic{
+        width: 24%;
+    }
+    .picwrapper{
+        margin-left: 48px;
+    }
+    .downloadwrapper{
+        margin-left: 30px;
+    }
+    .singlesocial{
+        margin-right: 0px;
+        margin-left: 156px;
+    }
+}
+/*-----------------------tablet and laptop--------------------------*/
+@media(min-width: 501px) and (max-width: 650px){
+    #header{
+        width: 240%;
+    }
+    #service{
+        width: 240%;
+    }
+    #picture{
+        width: 240%;
+    }
+    #person{
+        width: 240%;
+    }
+    #sokAthaka{
+        width: 240%;
+    }
+    #downlode{
+        width: 240%;
+    }
+    #decsocial{
+        width: 240%;
+    }
+    #footer{
+        width: 240%;
+    }
+    .logo{
+        margin-left: 40px;
+    }
+    .title button{
+        font-size: 22px;
+        margin-left: 445px;
+    }
+    .singleservice{
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+    .icon{
+        font-size: 75px;
+    }
+    .icontitle h3{
+        font-size: 25px;
+    }
+    .icontitle p{
+        font-size: 23px;
+    }
+    .singlepic{
+       width: 48%;
+       height: 430px;
+
+    }
+    .picwrapper{
+        margin-left: 50px;
+    }
+    .singlepic img{
+        width: 100%;
+        height: 100%
+    }
+    .singleperson{
+        margin-right: 0px;
+        margin-left: 25px;
+    }
+    .persondec h2{
+        font-size: 30px;
+    }
+    .persondec p{
+        font-size: 25px;
+    }
+    .persondec span{
+        font-size: 20px;
+    }
+    .personsocial i{
+        font-size: 45px;
+        padding:22px; 
+    }
+    .downlodetitle h1{
+        font-size: 35px;
+    }
+    .downlodetitle p{
+        font-size: 25px;
+        width: 600px;
+    }
+    .downlodetitle button{
+        font-size: 22px;
+    }
+    .singlesocial{
+        margin-right: 0px;
+        margin-left: 160px;
+    }
+    .footerdc{
+        font-size: 20px;
+    }
+}
+/*-----------------------tablet and phon--------------------------*/
+@media(min-width: 376px) and (max-width:500px){
+*{
+margin:0px;
+padding: 0px;
+}
+#header{
+width: 320%;
+}
+#service{
+width: 320%;
+}
+#picture{
+width: 320%;
+}
+
+#person{
+width: 320%;
+}
+#sokAthaka{
+width: 320%;
+}
+#downlode{
+width: 320%;
+}
+#decsocial{
+width: 320%;
+}
+#footer{
+width: 320%;
+}
+.logo{
+margin-left: 5%;
+}
+.menubar ul li{
+font-size: 25px;
+}
+.title p{
+font-size:30px;
+}
+.title button{
+font-size: 25px;
+padding: 17px 32px;
+margin-left: 37%;
+}
+.singleservice{
+width: 45%;
+}
+.icon{
+width: 30%;
+font-size: 110px;
+}
+.icontitle h3{
+font-size: 30px;
+margin-bottom: 8px;
+}
+.icontitle p{
+font-size: 27px;
+width: 465px;
+}
+.singlepic{
+width: 48%;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.singlepic img{
+width: 100%;
+height: 340px;
+border-radius: 30px;
+}
+.picwrapper{
+padding-left: 35px;
+}
+.singleperson{
+    width: 45%
+}
+.singleperson img{
+    width: 98%;
+}
+.persondec h2{
+    font-size: 50px;
+}
+.persondec p{
+    font-size: 32px;
+}
+.persondec span{
+    font-size: 35px
+}
+.parsonwrapper{
+    padding-left:95px;
+}
+.personsocial i{
+    padding:45px;
+    font-size: 60px;
+    margin-right: 12px;
+}
+.soktextwrapper h1{
+    font-size: 42px;
+    margin-top: -60px;
+}
+.soktextwrapper p{
+    font-size: 24px
+}
+.soktextwrapper{
+    padding:110px 14px;
+}
+.downlodetitle h1{
+    font-size: 40px;
+}
+.downlodetitle p{
+    font-size: 27px;
+    width: 633px
+}
+.downlodetitle button{
+    font-size: 20px;
+    padding:20px 40px;
+    margin-left: 455px
+}
+.singlesocial{
+    margin-right: 0px;
+    margin-left: 110px;
+    width: 238px
+}
+.singlesocial h3{
+    font-size: 30px;
+    width: 288px;
+}
+.singlesocial p{
+    font-size: 20px;
+}
+.singlesocial:last-child p{
+    width: 375px
+}
+.decisocial i{
+    padding: 17px;
+    font-size: 30px;
+}
+.footerdc{
+    font-size: 25px;
+}
+}
+/*-----------------------phon--------------------------*/
+@media (max-width:375px){
+#header{
+width: 887px;
+}
+#service{
+width: 898px;
+}
+.contener{
+width: 898px;
+}
+.logomenu{
+width: 900px
+}
+.menubar{
+width: 650px;
+}
+.menubar i{
+    visibility: visible;
+}
+.menubar ul{
+   display: none;
+    margin-left: 520px;
+}
+.menubar i{
+    font-size: 60px;
+    margin-left: 540px;
+}
+.logo{
+    padding-top:20px;
+}
+.title h1{
+font-size: 60px;
+margin-left: 200px;
+margin: auto;
+}
+.title p{
+margin-left: 0px;
+width: 740px;
+margin: auto;
+}
+.title button{
+margin-left: 295px;
+margin-top: 50px;
+margin-bottom: 50px;
+font-size: 23px
+}
+.servicewrapper{
+margin-top: 90px;
+margin-bottom: -20px;
+}
+.singleservice{
+float: none;
+margin-left:10%;
+border: 3px solid black;
+padding: 70px;
+width: 65%;
+border-radius: 5%;
+}
+.icontitle h3{
+font-size: 40px
+}
+.icontitle p{
+font-size: 35px;
+width: 104%;
+}
+.icon{
+font-size: 130px;
+}
+#picture{
+width: 898px;
+}
+.singlepic{
+width: 80%;
+display: block;
+float: none;
+margin: auto;
+height: 415px;
+margin-bottom: 20px;
+}
+.singlepic img{
+width: 100%;
+height: 100%;
+}
+#person{
+width: 898px;
+}
+.singleperson{
+float: none;
+overflow: hidden;
+width: 590px;
+margin: 18%;
+}
+.singleperson img{
+width: 100%
+}
+.persondec h2{
+font-size: 50px;
+}
+.persondec span{
+font-size: 35px;
+}
+.persondec p{
+font-size: 48px;
+}
+.personsocial i{
+font-size: 90px;
+padding: 50px;
+}
+#sokAthaka{
+width: 898px;
+}
+.sokAthakaimg{
+float: none;
+width: 100%;
+}
+.sokAthakaright{
+float: none;
+width: 100%;
+}
+.soktextwrapper h1{
+font-size: 45px;
+}
+.soktextwrapper p{
+font-size: 28px;
+}
+#downlode{
+width:898px;
+margin: 0px;
+padding:0px;
+margin-top:-350px;
+margin-bottom: 90px;
+}
+.downlodetitle h1{
+font-size: 55px;
+}
+.downlodetitle p{
+font-size: 28px;
+width: 670px;
+margin-right: 80px;
+}
+.downlodetitle button{
+font-size: 30px;
+margin-left: 310px;
+}
+#decsocial{
+width: 898px;
+}
+.singlesocial{
+margin-right: 115px;
+}
+.singlesocial h3{
+font-size: 25px;
+}
+.singlesocial p{
+font-size: 21px;
+}
+.decsocialwrapper{
+margin-left: 75px;
+}
+#footer{
+width: 898px;
+}
+.footerdc p{
+font-size: 22px;
+}
+}
